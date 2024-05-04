@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+    <listener class-name="listeners.MethodInterceptor"/>
+  </listeners>
+  <test thread-count="5" name="Testcases(failed)">
+    <classes>
+      <class name="testcase.LoginTest">
+        <methods>
+          <include name="testCleanup"/>
+          <include name="signIn_validCredentials" invocation-numbers="0"/>
+          <include name="signIn_invalidCredentials" invocation-numbers="0"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- testcase.LoginTest -->
+    </classes>
+  </test> <!-- Testcases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,43 @@
+#name, description and execute header names should not be alter
+testid,name,description,execute
+1,launchTestURL,Verify Launch Test Webpage,true
+2,signIn_invalidCredentials,Verify Sign In to home page with invalid credentials,true
+3,verifyManualLogin,Verify Navigate to Home page,true
+4,signIn_validCredentials,Verify Sign In to Home page successfully,true
+5,fieldValidationForEligibilityYes,Verify user able to select YES options,true
+6,fieldValidationForEligibilityNo,Verify user able to select No options,true
+7,navigateToFAQ,Verify FAQ link works correctly,true
+8,navigateToContactDetails,Verify navigate to Contact Details Page,true
+9,checkMandatoryFields,Verify Check Mandatory fields in Contact Details Page,true
+10,SaveContactDetailsForm,Verify user able to save contact,true
+11,validateErrorWithInvalidContactNo,Verify validate contact no field,true
+12,validateErrorWithInvalidPostalCode,Verify validate postal code field,true
+13,checkCharLimitForBlockNo,Verify check max char length for Block,true
+14,checkCharLimitForUnit,Verify check max char length for Unit,true
+15,checkCharLimitForLevel,Verify check max char length for Level,true
+16,check_ON_SameMailingAddressBox,Verify mailing address fields are disabled when checkbox is selected,true
+17,check_OFF_SameMailingAddressBox,Verify mailing address fields are enabled when checkbox is un-selected,true
+18,check_MailingAddressField_isBlank_After_OFF,Verify Mailing address fields are enabled to input data,true
+19,check_ON_SameContactPersonBox,Verify contact person fields are disabled,true
+20,check_OFF_SameContactPersonBox,Verify contact person fields are enabled after checking OFF,true
+21,navigateToPreviousPage,Verify Navigate to previous page from Contact Details,true
+22,navigateToNextPage,Verify redirect to next page from Contact Details,true
+23,saveProjectForm,Verify user able to save project form with mandatory fields,true
+24,navigateToPreviousProposalPage,Verify Navigate to previous page from Proposal,true
+25,navigateToNextPageFromProposalPage,Verify redirect to next page from Proposal,true
+26,saveBusinessImpactForm,Verify user able to save business impact with mandatory fields,true
+27,navigateToPreviousImpactPage,Verify redirect to previous page from Business Impact,true
+28,navigateToNextPageFromImpactPage,Verify redirect to next page from Business Impact,true
+29,navigateToNextFromCostPage,Verify navigate to Declare and Review section,true
+30,saveDeclareAndReviewForm_With_No,Verify user able to save declare and review form with NO options,true
+31,checkErrorForMandatoryFields,Verify error messages for mandatory fields,true
+32,saveDeclareAndReviewForm_With_Yes,Verify user able to save declare and review form with YES options,true
+33,addIncentiveField,Verify user able to add incentive,true
+34,checkErrorForAcknowledgeCheckbox,Verify error message for acknowledge checkbox,true
+35,navigateToPreviousPage,Verify redirect to previous page from Declare and Review page,true
+36,navigateToReview,Verify summary is shown by clicking on REVIEW,true
+
+
+
+
+

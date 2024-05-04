@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	  <listeners>
+    <listener class-name="listeners.TestListener"></listener>
+    <listener class-name="listeners.MethodInterceptor"></listener>
+  </listeners>
+  <parameter name="browser"  value="firefox"></parameter>
+  <test thread-count="5" name="Testcases">
+    <classes>
+      <class name="testcase.LoginTest"/>
+      <class name="testcase.EligibilityTest"/>
+      <class name="testcase.ContactDetailsTest"/>
+      <class name="testcase.ProposalTest"/>
+      <class name="testcase.BusinessImpactTest"/>
+      <class name="testcase.DeclareAndReviewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
